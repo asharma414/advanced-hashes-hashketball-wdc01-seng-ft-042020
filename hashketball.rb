@@ -148,6 +148,7 @@ def shoe_size(player)
 end
 
 def team_colors(team)
+  binding.pry
   if game_hash[:home] == team
     return game_hash[:home][:colors]
   elif game_hash[:away] == team
