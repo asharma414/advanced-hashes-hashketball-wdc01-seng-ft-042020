@@ -194,7 +194,7 @@ def big_shoe_rebounds
   end
   rebounds
 end
-=======
+
     if info[:team_name] == team_name
       info[:players].each do |stat, value|
         arr << value[:number]
@@ -203,4 +203,4 @@ end
   end
   binding.pry
 end
->>>>>>> 02cff52034ae2ef8b96a44b7e52a7d6bfb7cc7ef
+
